@@ -7,13 +7,13 @@ namespace ExamenFinalP2.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0-preview3-19553-01")]
-    public sealed partial class Yazmin : IMigrationMetadata
+    public sealed partial class yazmin : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Yazmin));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(yazmin));
         
         string IMigrationMetadata.Id
         {
-            get { return "201911291551484_Yazmin"; }
+            get { return "201912091529121_yazmin"; }
         }
         
         string IMigrationMetadata.Source

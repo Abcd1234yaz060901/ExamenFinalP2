@@ -46,7 +46,7 @@ namespace ExamenFinalP2.Controllers
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "IDVisitante,Nombre,Apellido,Direccion,Telefono,Correo")] Visitante visitante)
+        public ActionResult Create([Bind(Include = "IDVisitante,Nombre,Apellido,Cedula,FechaCreacion,Direccion,Telefono,Correo")] Visitante visitante)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace ExamenFinalP2.Controllers
         // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "IDVisitante,Nombre,Apellido,Direccion,Telefono,Correo")] Visitante visitante)
+        public ActionResult Edit([Bind(Include = "IDVisitante,Nombre,Apellido,Cedula,FechaCreacion,Direccion,Telefono,Correo")] Visitante visitante)
         {
             if (ModelState.IsValid)
             {

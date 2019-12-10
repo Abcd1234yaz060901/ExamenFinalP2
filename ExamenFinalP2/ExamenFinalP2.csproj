@@ -134,9 +134,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911291551484_Yazmin.cs" />
-    <Compile Include="Migrations\201911291551484_Yazmin.designer.cs">
-      <DependentUpon>201911291551484_Yazmin.cs</DependentUpon>
+    <Compile Include="Migrations\201912090605550_ya.cs" />
+    <Compile Include="Migrations\201912090605550_ya.designer.cs">
+      <DependentUpon>201912090605550_ya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091529121_yazmin.cs" />
+    <Compile Include="Migrations\201912091529121_yazmin.designer.cs">
+      <DependentUpon>201912091529121_yazmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Areas.cs" />
@@ -146,12 +150,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\barner.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\flamenco.jpg" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
@@ -200,10 +205,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
@@ -213,8 +214,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201911291551484_Yazmin.resx">
-      <DependentUpon>201911291551484_Yazmin.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201912090605550_ya.resx">
+      <DependentUpon>201912090605550_ya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091529121_yazmin.resx">
+      <DependentUpon>201912091529121_yazmin.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

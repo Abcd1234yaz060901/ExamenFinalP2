@@ -34,5 +34,8 @@ namespace ExamenFinalP2.Models
         public int IDArea { get; set; }
         public Areas Areas { get; set; }
 
+        [Display(Name = "Persona que lo recibio")]
+        public string Nombre { get; set; }
+
     }
 }
